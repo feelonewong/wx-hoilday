@@ -1,0 +1,15 @@
+<!--pages/card/card.wxml-->
+<!-- 
+  <navigator url="/pages/test/test">跳到test页面</navigator>
+  跳转(可返回) 
+  <navigator open-type="redirect" url="/pages/my/my">跳转我的，并且替换当前页</navigator>
+  跳转(不可返回)
+  跳转标签页
+   <navigator open-type="switchTab" url="/pages/home/home">跳转我的，并且替换当前页</navigator
+ -->
+<view>
+  <navigator url="/pages/test/test">跳到test页面</navigator>
+  <navigator open-type="redirect" url="/pages/my/my">跳转我的，并且替换当前页</navigator>
+
+  <navigator open-type="switchTab" url="/pages/home/home">跳转首页(switchTab)</navigator>
+</view>

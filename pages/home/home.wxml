@@ -1,0 +1,39 @@
+<!--pages/home/home.wxml-->
+<view>
+ <swiper class="slider" 
+    autoplay
+    indicator-dots
+    circular
+  >
+   <swiper-item>
+     <image src="https://yjy-teach-oss.oss-cn-beijing.aliyuncs.com/miniapp/slider.png" mode=""/>
+   </swiper-item>
+   <swiper-item>
+     <image src="https://yjy-teach-oss.oss-cn-beijing.aliyuncs.com/miniapp/slider.png" mode=""/>
+   </swiper-item>
+   <swiper-item>
+     <image src="https://yjy-teach-oss.oss-cn-beijing.aliyuncs.com/miniapp/slider.png" mode=""/>
+   </swiper-item>
+ </swiper>
+
+ <view class="party">
+  <view class="title">
+    <text>乐园活动</text>
+  </view>
+  <view class="item">
+    <view class="item-image">
+      <text>进行中</text>
+      <image src="https://yjy-teach-oss.oss-cn-beijing.aliyuncs.com/miniapp/slider.png"
+      />
+    </view>
+    <view class="info">
+      <view class="tit">
+        疯狂的红包 不一样的撕名牌 大型家庭亲自户外活动 速度来参加
+      </view>
+      <view class="btn">
+        免费
+      </view>
+    </view>
+  </view>
+ </view>
+</view>
